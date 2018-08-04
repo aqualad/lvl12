@@ -1,0 +1,6 @@
+version: "2.1"
+services:
+    database:
+        build: ./database
+        ports:
+            - "15432:5432"
